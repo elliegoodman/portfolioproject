@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellie Goodman's Website</title>
+    <style>
+        body {
+            background-color: rgb(147, 137, 137); /* Background color of the entire page */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        #main-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        #name-box {
+            background-color: darkgrey; /* Background color behind the name */
+            display: inline-block;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 36px; /* Size of the title */
+            margin: 0;
+            color: white; /* Color of the name */
+        }
+        .underline-links {
+            margin-top: 20px;
+        }
+        .underline-links a {
+            text-decoration: none;
+            border-bottom: 1px solid black; /* Underline effect */
+            margin: 0 10px;
+            color: black;
+        }
+        .biography {
+            text-align: left;
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .pictures {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .pictures img {
+            margin: 0 10px;
+            width: 200px; /* Adjust the width of the pictures */
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-container">
+        <div id="name-box">
+            <h1>Ellie Goodman</h1>
+        </div>
+        <div class="underline-links">
+            <a href="#">About Me</a>
+            <a href="#">Resume</a>
+            <a href="#">Projects</a>
+            <a href="#">References</a>
+            <a href="#">Contact Info</a>
+        </div>
+        <div class="biography">
+            <p>Hi everyone! My name is Ellie Goodman and I am a current senior at the University of Iowa studying Business Analytics and Information Systems. Upon graduation in May, I will begin working as a Strategy Analyst for Eaton, an aerospace company in the Quad Cities area. Some things I enjoy doing in my free time are baking and cooking, hanging with friends and family, and reading! .</p>
+        </div>
+        <div class="pictures">
+            <img src="Images/headshot.png" alt="Professional Headshot">
+            <img src="Images/friends.JPG" alt="Friends">
+            <img src="Images/fareway.jpg" alt="Fareway">
+        </div>
+    </div>
+</body>
+</html>
