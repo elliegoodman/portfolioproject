@@ -151,37 +151,12 @@
 </script> 
 </body>
 </html>
-
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Eleanor Goodman 2024</span></strong>
-      </div>
-     
-        <p>View my websites <a href="/privacypolicy.html">Privacy Policy</a>
-          View my websites <a href="/termsandconditions.html">Terms and Conditions</a>
-        </p>
-        
-      </div>
-      <div id="cookie-popup">
-        <p>
-          By using this site you agree to the storing of cookies on your device to
-          enhance site navigation and to analyze site usage. Learn more about our <a href="/cookiepolicy.html">cookie policy</a>.
-        </p>
-        <p>
-          <button id="accept-cookies">Accept</button>
-        </p>
-      </div>
-    </div>
-   
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Website with Pop-up Policies</title>
+<title>Ellie Goodman's Website</title>
 <style>
   /* Styles for modal */
   .modal {
@@ -224,16 +199,18 @@
 </head>
 <body>
 
-<!-- Button to open modals -->
-<button onclick="openModal('cookiepolicy.html')">Open Cookie Policy</button>
-
-
-<!-- Modal for Cookie Policy -->
+<!-- Cookie Policy Modal -->
 <div id="cookieModal" class="modal">
   <div class="modal-content">
     <span class="close" onclick="closeModal('cookieModal')">&times;</span>
     <h2>Cookie Policy</h2>
-    <p>This is the cookie policy content.</p>
+    <p>
+      By using this site you agree to the storing of cookies on your device to
+      enhance site navigation and to analyze site usage. Learn more about our <a href="/cookiepolicy.html">cookie policy</a>.
+    </p>
+    <p>
+      <button id="accept-cookies" onclick="closeModal('cookieModal')">Accept</button>
+    </p>
   </div>
 </div>
 
@@ -247,7 +224,25 @@ function openModal(modalId) {
 function closeModal(modalId) {
   document.getElementById(modalId).style.display = "none";
 }
+
+// Automatically open the cookie policy modal when the page loads
+window.onload = function() {
+  openModal('cookieModal');
+};
 </script>
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Eleanor Goodman 2024</span></strong>
+    </div>
+   
+    <p>View my websites <a href="/privacypolicy.html">Privacy Policy</a>
+      View my websites <a href="/termsandconditions.html">Terms and Conditions</a>
+    </p>
+  </div>
+</footer>
 
 </body>
 </html>
