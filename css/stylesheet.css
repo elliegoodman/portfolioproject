@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ellie Goodman's Website</title>
-    <style>
+
         body {
             background-color: rgb(147, 137, 137); /* Background color of the entire page */
             margin: 0;
@@ -54,32 +48,6 @@
             width: 150px; /* Adjust the width of the pictures */
             border-radius: 10px;
         }
-    </style>
-</head>
-<body>
-    <div id="main-container">
-        <div id="name-box">
-            <h1>Ellie Goodman</h1>
-        </div>
-        <div class="underline-links">
-            <a href="#">About Me</a>
-            <a href="#">Resume</a>
-            <a href="#">Projects</a>
-            <a href="#">References</a>
-            <a href="#">Contact Information</a>
-        </div>
-        <div class="biography">
-            <p>Hi everyone! My name is Ellie Goodman and I am a current senior at the University of Iowa studying Business Analytics and Information Systems. Upon graduation in May, I will begin working as a Strategy Analyst for Eaton, an aerospace company in the Quad Cities area. Some things I enjoy doing in my free time are baking and cooking, hanging with friends and family, and reading! .</p>
-        </div>
-        <div class="pictures">
-            <img src="Images/headshot.png" alt="Professional Headshot">
-            <img src="Images/friends.JPG" alt="Friends">
-            <img src="Images/fareway.jpg" alt="Fareway">
-        </div>
-    </div>
-</body>
-
-</html>
 
 body {
     background-color: #f5f5f5; /* Light grey background */
